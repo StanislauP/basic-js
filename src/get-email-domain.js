@@ -14,7 +14,7 @@ function getEmailDomain(email) {
   //throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
   email= email.split('@')
-  return email[1]
+  return email[email.length-1]
 }
 
 module.exports = {
